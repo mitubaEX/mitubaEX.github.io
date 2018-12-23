@@ -8,13 +8,24 @@ import SEO from '../components/seo'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <img src="https://avatars0.githubusercontent.com/u/12068535?s=400&u=2f780ad17c1559d5aff515638aebcb49b9098070&v=4"/>
+    <h1>Topics</h1>
+    <div>
+      <ul>
+        <li><Link to="/About/">About</Link></li>
+        <li><Link to="/Technique-of-mitubaEX/">Technique of mitubaEX</Link></li>
+        <li><Link to="/Hobby/">Hobby</Link></li>
+      </ul>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <h1>Output sites</h1>
+    <div>
+      <ul>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/mitubaEX">GitHub</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://qiita.com/mitubaEX114514">Qiita</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://mitubaex.hatenablog.com/">HatenaBlog</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://note.mu/mitubaex">note</a></li>
+      </ul>
+    </div>
   </Layout>
 )
 
