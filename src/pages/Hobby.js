@@ -1,8 +1,8 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from "react";
+import { Link } from "gatsby";
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 const SecondPage = () => (
   <Layout>
@@ -12,11 +12,19 @@ const SecondPage = () => (
     <h3>VTuber</h3>
     <div>
       <ul>
-        <li><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCeLzT-7b2PBcunJplmWtoDg">HoneyStrap</a></li>
+        <li>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.youtube.com/channel/UCeLzT-7b2PBcunJplmWtoDg"
+          >
+            HoneyStrap
+          </a>
+        </li>
       </ul>
     </div>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
-)
+);
 
-export default SecondPage
+export default SecondPage;
