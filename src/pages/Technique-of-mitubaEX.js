@@ -1,8 +1,8 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from "react";
+import { Link } from "gatsby";
 
-import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 const SecondPage = () => (
   <Layout>
@@ -16,7 +16,16 @@ const SecondPage = () => (
         <li>Shell: Zsh</li>
         <li>Editor: Neovim</li>
         <li>Other: Alacritty, tmux</li>
-        <li>dotfiles: <a target="_blank" rel="noopener noreferrer" href="https://github.com/mitubaEX/dotfiles">dotfiles</a></li>
+        <li>
+          dotfiles:{" "}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/mitubaEX/dotfiles"
+          >
+            dotfiles
+          </a>
+        </li>
       </ul>
     </div>
 
@@ -33,6 +42,6 @@ const SecondPage = () => (
     </div>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
-)
+);
 
-export default SecondPage
+export default SecondPage;
