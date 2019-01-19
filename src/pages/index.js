@@ -12,11 +12,15 @@ const IndexPage = () => (
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <img
       src="https://avatars0.githubusercontent.com/u/12068535?s=400&u=2f780ad17c1559d5aff515638aebcb49b9098070&v=4"
       class="animated infinite heartBeat slow"
     />
-    <h1>Topics</h1>
+    <h1>Information</h1>
     <div>
       <ul>
         <li>
@@ -34,10 +38,12 @@ const IndexPage = () => (
     <div>
       <ul>
         <li>
+          <i class="fa fa-github" />
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://github.com/mitubaEX"
+            style={{ marginLeft: '5px' }}
           >
             GitHub
           </a>
@@ -76,6 +82,33 @@ const IndexPage = () => (
             href="https://note.mu/mitubaex"
           >
             note
+          </a>
+        </li>
+      </ul>
+    </div>
+    <h1>SNS</h1>
+    <div>
+      <ul>
+        <li>
+          <i class="fa fa-twitter-square" />
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://twitter.com/mitubaEX"
+            style={{ marginLeft: '5px' }}
+          >
+            Twitter
+          </a>
+        </li>
+        <li>
+          <i class="fa fa-facebook-official" />
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.facebook.com/profile.php?id=100011351184365"
+            style={{ marginLeft: '5px' }}
+          >
+            Facebook
           </a>
         </li>
       </ul>
