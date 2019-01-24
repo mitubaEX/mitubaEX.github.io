@@ -16,10 +16,7 @@ const IndexPage = () => (
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <img
-      src="https://avatars0.githubusercontent.com/u/12068535?s=400&u=2f780ad17c1559d5aff515638aebcb49b9098070&v=4"
-      class="animated infinite heartBeat slow"
-    />
+    <img src="https://avatars0.githubusercontent.com/u/12068535?s=400&u=2f780ad17c1559d5aff515638aebcb49b9098070&v=4" />
     <h1>Information</h1>
     <div>
       <ul>
@@ -52,7 +49,7 @@ const IndexPage = () => (
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://qiita.com/mitubaEX114514"
+            href="https://qiita.com/mitubaEX328"
           >
             Qiita
           </a>
